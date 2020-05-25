@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: rgb(43, 42, 42);
+}
+
+#main,
+#box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box {
+    flex-direction: column;
+}
+
+#canvas {
+    margin: 25px;
+    box-shadow: rgb(4, 29, 255) 0 0 20px;
+    background-color: rgb(155, 155, 155);
+}
+
+.score {
+    width: 70px;
+    height: 40px;
+    color: red;
+    line-height: 40px;
+    background-color: black;
+    border: 2px red solid;
+    margin: 0 auto;
+}
+
+.infor {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    background-color: gray;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
